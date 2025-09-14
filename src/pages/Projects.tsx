@@ -66,7 +66,18 @@ const Projects = () => {
       liveUrl: "https://panchkarmahospital.netlify.app/",
       githubUrl: "https://github.com"
     },
-    
+
+    {
+      id: 5,
+      title: "Panchkarma-care",
+      description: "A fully working , App which  helps to  set  up and finding the wanted frenchise you want.",
+      image: "https://imgs.search.brave.com/MGv-ql3MIhteQssQWx3IHWIPLDZ_ctzZuNbqBCDSxOk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9mcmFu/Y2hpc2Utc3RhbXAt/dHlwb2dyYXBoaWMt/c3RhbXAtZnJhbmNo/aXNlLXN0YW1wLXR5/cG9ncmFwaGljLXNp/Z24tc3RhbXAtbG9n/by0xMTAyNDY0OTUu/anBn",
+      technologies: ["React Native", "OpenWeatherAPI", "Maps", "Redux"],
+      category: "mobile",
+      liveUrl: "franchisehelper.netlify.app",
+      githubUrl: "https://github.com"
+    },
+
     // {
     //   id: 5,
     //   title: "Blog API",
