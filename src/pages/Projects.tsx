@@ -8,10 +8,10 @@ const Projects = () => {
 
   const categories = [
     { id: 'all', label: 'All Projects' },
-    { id: 'web', label: 'Web Apps' },
-    { id: 'mobile', label: 'Mobile' },
-    { id: 'ui', label: 'UI/UX' },
-    { id: 'backend', label: 'Backend' }
+    // { id: 'web', label: 'Web Apps' },
+    // { id: 'mobile', label: 'Mobile' },
+    // { id: 'ui', label: 'UI/UX' },
+    // { id: 'backend', label: 'Backend' }
   ];
 
   const projects = [
