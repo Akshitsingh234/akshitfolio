@@ -15,7 +15,7 @@ const Projects = () => {
   ];
 
   const projects = [
-     {
+    {
       id: 6,
       title: "OrnaVault",
       description: "specially for Jwellery  shops, A site which manages  the shops and customers in a single place .",
@@ -77,6 +77,16 @@ const Projects = () => {
       liveUrl: "https://franchisehelper.netlify.app/",
       githubUrl: "https://github.com"
     },
+    {
+      id: 6,
+      title: "Farmer-Saathi",
+      description: "A fully working , App which  helps farmers by using ai powers.",
+      image: "https://imgs.search.brave.com/OGMiac8quXThs2KlfB4xftrxq6Cefmu1_euOu-LyFbg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMucmVhbGx5Z29v/ZGRlc2lnbnMuY29t/LzIwMjQvMDUvbWlu/aW1hbC1tb25vY2hy/b21lLWZhcm0tbG9n/by1leGFtcGxlLmpw/Zw",
+      technologies: ["React.js", "Next.js", "TypeScript", "Tailwind CSS", "AI"],
+      category: "mobile",
+      liveUrl: "https://farmer-saathi1-89s7.vercel.app/",
+      githubUrl: "https://github.com/Akshitsingh234/farmer_saathi.git"
+    },
 
     // {
     //   id: 5,
@@ -87,27 +97,27 @@ const Projects = () => {
     //   category: "backend",
     //   githubUrl: "https://github.com"
     // },
-   
+
   ];
 
-  const filteredProjects = filter === 'all' 
-    ? projects 
+  const filteredProjects = filter === 'all'
+    ? projects
     : projects.filter(project => project.category === filter);
 
   return (
     <div className="min-h-screen">
       <Navigation />
-      
+
       <main className="pt-20 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          
+
           {/* Projects Hero Section */}
           <section className="py-16 text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6 animate-slide-up">
               <span className="text-gradient-primary">My Projects</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto animate-slide-up" style={{ animationDelay: '0.1s' }}>
-              A showcase of my recent work, featuring web applications, mobile apps, 
+              A showcase of my recent work, featuring web applications, mobile apps,
               and various development projects that demonstrate my skills and creativity.
             </p>
           </section>
@@ -119,11 +129,10 @@ const Projects = () => {
                 <Button
                   key={category.id}
                   variant={filter === category.id ? "default" : "outline"}
-                  className={`rounded-full px-6 py-2 transition-all duration-300 hover-lift ${
-                    filter === category.id
-                      ? 'bg-gradient-primary text-primary-foreground shadow-primary'
-                      : 'glass border-accent/20 hover:bg-accent/10 hover:text-accent'
-                  }`}
+                  className={`rounded-full px-6 py-2 transition-all duration-300 hover-lift ${filter === category.id
+                    ? 'bg-gradient-primary text-primary-foreground shadow-primary'
+                    : 'glass border-accent/20 hover:bg-accent/10 hover:text-accent'
+                    }`}
                   onClick={() => setFilter(category.id)}
                 >
                   {category.label}
@@ -148,7 +157,7 @@ const Projects = () => {
                     technologies={project.technologies}
                     liveUrl={project.liveUrl}
                     githubUrl={project.githubUrl}
-                    // featured={project.featured}
+                  // featured={project.featured}
                   />
                 </div>
               ))}
@@ -175,7 +184,7 @@ const Projects = () => {
                 <span className="text-gradient-accent">Let's Work Together</span>
               </h2>
               <p className="text-muted-foreground text-lg max-w-2xl mx-auto mb-8">
-                Interested in collaborating on a project? I'm always excited to work 
+                Interested in collaborating on a project? I'm always excited to work
                 on new challenges and create something amazing together.
               </p>
               <Button className="bg-gradient-primary hover:shadow-primary text-primary-foreground font-semibold px-8 py-3 rounded-full hover-lift">
