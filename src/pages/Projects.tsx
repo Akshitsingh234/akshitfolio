@@ -16,7 +16,7 @@ const Projects = () => {
 
   const projects = [
     {
-      id: 6,
+      id: 1,
       title: "OrnaVault",
       description: "specially for Jwellery  shops, A site which manages  the shops and customers in a single place .",
       image: "https://imgs.search.brave.com/Dbmq-Ys4WG1NQ61elq6WrL7p9uQhVXm_ryX5BKpKM5I/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNjM5/Nzc3NDg4L3Bob3Rv/L2RpYW1vbmQtb24t/dGhlLXdhdGVyLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz00/Tm52eTd6czhXNW1u/YnRKdWJlVFdSUzJL/Z3VvT2I0dVRaSkNE/YjVCM1lFPQ",
