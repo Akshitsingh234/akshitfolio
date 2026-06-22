@@ -87,6 +87,16 @@ const Projects = () => {
       liveUrl: "https://farmer-saathi1-89s7.vercel.app/",
       githubUrl: "https://github.com/Akshitsingh234/farmer_saathi.git"
     },
+    {
+      id: 7,
+      title: "Gitmate",
+      description: "AI-powered Git productivity toolkit that automates commits, branch naming, project naming, and .gitignore generation.",
+      image: "https://imgs.search.brave.com/RrVanUr6q3sgPuYdpIR-XCnJe5hcQELhcEh0_fL--s8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/aWNvbnNjb3V0LmNv/bS9pY29uL2ZyZWUv/cG5nLTI1Ni9mcmVl/LWdpdGh1Yi1sb2dv/LWljb24tc3ZnLWRv/d25sb2FkLXBuZy00/MzczODkucG5nP2Y9/d2VicCZ3PTEyOA",
+      technologies: ["React.js", "Next.js", "TypeScript", "Tailwind CSS", "AI"],
+      category: "mobile",
+      liveUrl: "https://git-mate-gray.vercel.app/",
+      githubUrl: "https://github.com/Akshitsingh234/GitMate.git"
+    },
 
     // {
     //   id: 5,
